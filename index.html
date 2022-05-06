@@ -1,0 +1,44 @@
+<!-- To whom it may concern,
+
+While my code in this example is not amazing or complex...or even standardised to the normal extent, this project was a headache for me, as I, on multiple occassions had stupid little typos that took me days to figure out.
+
+This is not my best work, nor is it even something I'm happy with submitting, but I need to stop writing this code for a couple days just for my own sanity.
+
+I just want you to know that, I don't expect it to make a difference, there is lots to clean up in this.
+And I was looking forward to the modal part but I only barely have working code, at 9am today, this was still not even working.
+
+I've put a week of effort in but I think only 3 hours has not been trying to fix my fetch code (except I was looking in the wrong place for the bug, I thought I was messing up fetch, but it was, on both occassions, typos in the rest of my code.) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Async Dom</title>
+  <script src="./dom.js" type="module" defer></script>
+  <script src="./api.js" type="module" defer></script>
+  <link rel="stylesheet" href="./gallery.css" />
+</head>
+
+<div class="top">
+<h1>Rod's amazing book search</h1>
+
+
+<body>
+  <form id="pageForm">
+    <input type="search" name="searchTerm" placeholder="Search for books!" />
+    <button type="submit" id="submit">Submit</button>
+
+  </form>
+</body>
+  <div class="controls">
+      <button id="previous">Previous</button>
+      <button id="next">Next</button>
+  </div class="controls">
+</div>
+  <div id="books"></div>
+
+
+</html>
