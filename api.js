@@ -1,6 +1,6 @@
 export const getBooks = async (searchTerm, resultPage) => {
     const responsePromise = fetch(
-        `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&startIndex=${resultPage*10}&key=AIzaSyBwD01Hkd8UwefnYiVyyklQbOLB8dLL9tg`
+        `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&startIndex=${resultPage*10}`
     );
     // console.log("Pending State", responsePromise);
     // Waiting until response metadata is downloaded
